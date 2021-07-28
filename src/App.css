@@ -4,4 +4,21 @@ h1 {
 }
 h2 {
   margin-top: 0;
+  margin-bottom: 10px;
+}
+button {
+  cursor: pointer;
+  transition: transform 250ms ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.Wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  padding: 10px 20px;
+  border: 2px solid slateblue;
 }

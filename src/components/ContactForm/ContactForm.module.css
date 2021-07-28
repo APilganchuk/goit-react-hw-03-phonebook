@@ -1,7 +1,6 @@
 .form {
   width: 300px;
-  border: 1px solid tomato;
-  padding: 20px;
+  padding: 10px 20px;
 }
 .form input {
   display: block;

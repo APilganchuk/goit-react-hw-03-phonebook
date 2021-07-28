@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const ContactList = ({ contactList, onDeleteContact }) => {
   return (
-    <ol>
+    <ol className={styles.ContactList}>
       {contactList.map(({ id, name, number }) => (
         <li className={styles.item} key={id}>
           <b>{name}: </b>
